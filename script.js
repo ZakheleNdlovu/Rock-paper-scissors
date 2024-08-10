@@ -15,17 +15,20 @@ rock.addEventListener("click",()=>{
 
         case 1:
             computer.innerHTML = "Computer : ✊";
-            winner.innerHTML = "Winner: It's a tie";
+            winner.style.color = "black";
+            winner.innerHTML = "It's a tie";
             break;
 
         case 2:
             computer.innerHTML = "Computer : 🖐";
-            winner.innerHTML = "Winner : Computer Wins!";
+            winner.style.color = "red";
+            winner.innerHTML = "Computer Wins!";
             break;
 
         case 3:
             computer.innerHTML = "Computer: ✌";
-            winner.innerHTML = "Winner: Player Wins!";
+            winner.style.color = "green";
+            winner.innerHTML = "Player Wins!";
             break;
         
     }
@@ -39,17 +42,20 @@ paper.addEventListener("click",()=>{
 
         case 1:
             computer.innerHTML = "Computer: ✊";
-            winner.innerHTML = "Winner : Player Wins!";
+            winner.style.color = "green";
+            winner.innerHTML = "Player Wins!";
             break;
 
         case 2:
             computer.innerHTML = "Computer : 🖐";
-            winner.innerHTML = "Winner : Tie!";
+            winner.style.color = "black";
+            winner.innerHTML = "It's a tie!";
             break;
 
         case 3:
             computer.innerHTML = "Computer : ✌";
-            winner.innerHTML = "Winner : Computer Wins!";
+            winner.style.color = "red";
+            winner.innerHTML = "Computer Wins!";
             break;
         
     }
@@ -62,17 +68,20 @@ scissors.addEventListener("click",()=>{
 
         case 1:
             computer.innerHTML = "Computer : ✊";
-            winner.innerHTML = "Winner : Computer Wins!";
+            winner.style.color = "red";
+            winner.innerHTML = "Computer Wins!";
             break;
 
         case 2:
             computer.innerHTML = "Computer : 🖐";
-            winner.innerHTML = "Winner : Player Wins!";
+            winner.style.color = "green";
+            winner.innerHTML = " Player Wins!";
             break;
 
         case 3:
             computer.innerHTML = "Computer : ✌";
-            winner.innerHTML = "Winner : It's a tie";
+            winner.style.color = "black";
+            winner.innerHTML = "It's a tie";
             break;
         
     }
